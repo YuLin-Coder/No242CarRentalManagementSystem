@@ -1,0 +1,10 @@
+.myshowbox { position: fixed; top: 50%; left: 50%; z-index: 99999; padding: 5px; overflow: hidden; _position: absolute; _margin-top: 0;}
+.myshowbox .title { padding: 20px 10px; height: 25px; line-height: 25px; font-size: 18px; border-bottom: 1px solid #d2d2d2; overflow: hidden; zoom: 1;}
+.myshowbox-container { position: relative; padding: 10px; background: #fff; overflow: hidden; zoom: 1; border-radius:5px; -webkit-border-radius: 5px; -moz-border-radius: 5px;}
+.myshowbox-container .btn-close { position: absolute; z-index: 9; top: 20px; right: 20px; width: 27px; height: 27px;}
+.myshowbox-container .btn-close span { position: fixed; width: 15px; height: 15px; border-radius: 15px;  padding: 5px; background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUBAMAAAB/pwA+AAAAGFBMVEUAAAAzMzMzMzMzMzMzMzMzMzMzMzMzMzOW6p+xAAAACHRSTlMAMdkwL+CqqYeyKcEAAABfSURBVAjXTc2xCYBAEETREQVTOdBctIBDMBc7ECuwA/uPvN1/C04yy4Nl9Euf6fZVs3Bug5Sy4yw5g8agMwg7woZkvBTZb9re06EYatZAqXAMwV3BymdBYxAG4Uc10wdubQhw+AIbHQAAAABJRU5ErkJggg==") 5px 5px no-repeat #fff; background-size: 15px 15px; border: 1px solid #666;}
+#bgScreen, #bgIFrame { position: fixed; top: 0; left: 0; z-index: 999; width: 100%; background: #000; filter: alpha(opacity=70); opacity: 0.7; _position: absolute; _top: expression(documentElement.scrollTop+documentElement.clientHeight-this.offsetHeight); _left: expression(documentElement.scrollLeft+documentElement.clientWidth-this.offsetWidth);}
+#bgIFrame { z-index: 998; filter: alpha(opacity=0); opacity: 0;}
+
+.window-scroll { overflow-y:auto;}
+.window-popup { padding: 0 !important; overflow-y:auto;}

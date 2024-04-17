@@ -1,0 +1,50 @@
+h1,h2,h3,h4,h5,h6,p,ul,ol,li,form,img,dl,dt,dd,table,th,td,blockquote,fieldset,div,strong,label,em{margin:0;padding:0;border:0;}
+ul,ol,li{list-style:none;}
+input,button{margin:0;font-size:12px;vertical-align:middle;}
+body{font-size:12px; color:#333; font-family:Tahoma, "ï¿½ï¿½ï¿½ï¿½";}
+table{border-collapse:collapse;border-spacing:0;}
+a{blr:expression(this.onFocus=this.close());}
+a{blr:expression(this.onFocus=this.blur());}
+a:focus { -moz-outline-style: none; }
+.margin-clear{ margin-right:0px !important;}
+.focus-box{ width:100%; height:350px;}
+
+/*book*/
+.book-box{  width:1180px; margin:auto; color:#333; height:550px; margin-top:20px;}
+.book-box-left{ width:860px; overflow:hidden; zoom:1; float:left; text-align:left;}
+.book-box-right{ width:300px; overflow:hidden; zoom:1; float:right; text-align:left; padding-top:20px;}
+.book-box-left .book-title{ font-size:22px; color:#333;  font-family: "\5fae\8f6f\96c5\9ed1"; padding-left:40px;}
+.book-box-left .book-title span{ font-size:12px; color:#666;font-family:Tahoma, "ï¿½ï¿½ï¿½ï¿½";}
+.book-box-left .book-title span em{ font-size:12px; color:#ff0000; font-style:normal;font-family:Tahoma, "ï¿½ï¿½ï¿½ï¿½";font-size:14x; font-weight:bolder; padding:0 3px; }
+.book-box-left ul li{ padding:10px;font-family:Tahoma, "ï¿½ï¿½ï¿½ï¿½";}
+.book-box-left ul li span{
+    text-align: right;
+    width: 130px;
+    display: inline-block;
+    padding-right: 20px;
+}
+.book-box-left ul li em{ display:inline-block; color:#F00; padding-right:5px; font-size:14x; font-weight:bolder; vertical-align:middle;}
+.book-box-left ul li input{ width:158px; height:30px; border:1px solid #ccc; padding-left:3px; line-height:30px; color:#999; margin-right:10px;}
+.book-box-left ul li .txt-area{ width:320px; height:100px;color: #999; vertical-align:bottom; border:1px solid #ccc;}
+.book-box-left ul .v-top span{ vertical-align:top;}
+.book-box-left ul li .address{ width:320px;}
+.book-box-left ul .btn-box{ padding-left:160px; font-size:14px; color:#EC5907; font-weight:bolder; vertical-align:middle;}
+.book-box-left ul .btn-box input{ margin-left:4px; *margin-left:5px; width:120px; height:35px; background:url(../images/earlier/book_btn.png) no-repeat; display:inline-block; margin-right:20px;vertical-align:middle;}
+.book-box-left ul .btn-box input:hover{ background:url(../images/book_btn.png) no-repeat 0 -36px;}
+.point{cursor:pointer;}
+.book-box-left ul .li-hide{ height:0px; padding:0px; margin:0px; font-size:0px; line-height:0px;}
+.book-box-left ul li div{ *margin-top:-5px; *position:absolute !important;}
+.city-dropbox{ display:none; font-size:12px; width:162px; height:200px; overflow-y:scroll; border:1px solid #ccc; position:absolute; z-index:9999; background:#FFF; margin-left:164px; margin-top:-7px;*margin-left:166px; *top:270px;}
+
+.city-dropbox li{ height:10px; line-height:10px; padding-left:10px;}
+.city-dropbox li:hover{ color:#fff; background:#0088cc;}
+.city-dropbox li:hover a{ color:#fff;}
+.city-dropbox li a{ color:#666;}
+.city-dropbox li a:hover{ color:#fff; background:#0088cc;}
+.book-box-left ul li .time-box,.book-box-left ul li .city-box{ background:url(../images/orderbox_droparrow.png) no-repeat 145px 15px;}
+#reqValName,#reqValPhone,#regValEmail,#reqValAboardTime,#reqValAboardAddress,#reqValEmail {text-align:left;}
+
+#txtCustomerName,#txtCustomerPhone,#txtCustomerEmail{ margin-left:4px; *margin-left:6px;}
+.date-info-start{ _right:17px !important;}
+#YZM{ border:1px solid #EFEFEF; vertical-align:middle;}
+#verifyMessage,#reqValPhone,#reqValEmail,#regValEmail,#regValPhone,#reqValName,#reqValAboardTime,#reqValAboardAddress{ color:#F00;}

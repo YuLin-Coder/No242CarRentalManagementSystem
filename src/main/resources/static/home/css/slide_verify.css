@@ -1,0 +1,142 @@
+.slide-verify {
+    width: 420px;
+    margin: 0 auto;
+    padding: 40px 50px;
+}
+
+.slide-verify * {
+    box-sizing: border-box;
+}
+
+.slide-verify canvas {
+    display: block;
+}
+
+.slide-verify-canvas {
+    position: relative;
+}
+
+.slide-verify-msg {
+    width: 100%;
+    line-height: 40px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.slide-verify-block {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.sliderContainer {
+    position: relative;
+    text-align: center;
+    width: 420px;
+    height: 42px;
+    line-height: 42px;
+    margin-top: 10px;
+    background: #f7f7f7;
+    color: #7b7b7b;
+    border: 1px solid #eaeaea;
+}
+
+.sliderContainer_active .slider {
+    height: 40px;
+}
+
+.sliderContainer_active .sliderMask {
+    height: 40px;
+}
+
+.sliderContainer_success .slider {
+    height: 40px;
+}
+
+.sliderContainer_success .sliderMask {
+    height: 40px;
+}
+
+.sliderContainer_success .sliderIcon {
+    background-position: 0 0 !important;
+}
+
+.sliderContainer_fail .slider {
+    height: 40px;
+}
+
+.sliderContainer_fail .sliderMask {
+    height: 40px;
+}
+
+.sliderContainer_fail .sliderIcon {
+    top: 14px;
+    background-position: 0 -82px !important;
+}
+
+.sliderContainer_active .slider {
+    background-color: #23b7b7;
+}
+
+.sliderContainer_success .slider {
+    background-color: #23b7b7;
+}
+
+.sliderContainer_fail .slider {
+    background-color: #f00;
+}
+
+.sliderContainer_active .sliderText,
+.sliderContainer_success .sliderText,
+.sliderContainer_fail .sliderText {
+    display: none;
+}
+
+.sliderMask {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 40px;
+    background-color: rgba(35, 183, 183, 0.2);
+}
+
+.slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: background 0.1s linear;
+}
+
+.slider:hover {
+    background-color: #23b7b7;
+}
+
+.slider:hover .sliderIcon {
+    background-position: 0 -13px;
+}
+
+/*.sliderIcon {*/
+    /*position: absolute;*/
+    /*top: 15px;*/
+    /*left: 13px;*/
+    /*width: 14px;*/
+    /*height: 12px;*/
+    /*background: url(../Customer/Images/icon_light.png) 0 -26px;*/
+    /*background-size: 34px 471px;*/
+/*}*/
+
+/*.refreshIcon {*/
+    /*position: absolute;*/
+    /*right: 0;*/
+    /*top: 0;*/
+    /*width: 34px;*/
+    /*height: 34px;*/
+    /*cursor: pointer;*/
+    /*background: url(../Customer/Images/icon_light.png) 0 -437px;*/
+    /*background-size: 34px 471px;*/
+/*}*/

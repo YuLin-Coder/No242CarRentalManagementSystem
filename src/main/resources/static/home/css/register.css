@@ -1,0 +1,54 @@
+.clear_float:after { display: block; visibility: hidden; height: 0; clear: both; content: "";}
+.clear_float { zoom:1;}
+
+.w1180 { width: 1180px; margin: 0 auto;}
+.reg-details { font-family:"Microsoft YaHei"; color: #333;}
+.reg-left { float: left; width: 698px; padding-left: 120px; padding-bottom: 20px; border-right: 1px solid #d4d4d4; display: inline-block;}
+.reg-left h3 { width: 120px; text-align: right; font-size: 20px; padding-bottom: 30px;}
+.reg-li {  padding-bottom: 18px;}
+.reg-li span { width: 120px; float: left; margin-right: 20px; text-align: right; display: inline-block; line-height: 34px; vertical-align: top; font-size: 16px;}
+.reg-li input { padding: 0 5px; height: 34px; line-height: 34px; vertical-align: top; border: 1px solid #b4b4b4;}
+.reg-li em { color: #f00; font-size: 16px; height: 36px; line-height: 36px; display: inline-block; vertical-align: top; margin-left: 3px;}
+.reg-li img.imgCaptcha { width: 100px; height: 36px; margin-left: 16px; cursor: pointer;}
+.reg-li input.input-codebtn { width: 100px; height: 36px; line-height: 36px; font-size: 14px; background: #cfcfcf; border: none; margin-left: 16px; cursor: pointer;}
+.input-name,.input-phone,.input-pwd,.input-invitecode { width: 295px;}
+.input-imgcode,.input-code { width: 175px;}
+.reg-li i.error-msg { height: 36px; line-height: 36px; display: inline-block; color: #FF7E00; margin-left: 5px; font-style: normal;}
+.reg-pwd { display: inline-block; float: left; margin-right: 2px; position: relative;}
+.pwd-show,.pwd-hide { position: absolute; width: 31px; height: 18px; top: 9px; right: 10px; cursor: pointer;}
+.pwd-show { background:url(images/pwd-show.png) no-repeat;}
+.pwd-hide { background:url(images/pwd-hide.png) no-repeat;}
+#time{ width: 100px; height: 36px; line-height: 36px; font-size: 14px; background: #cfcfcf; margin-left: 16px; text-align: center; margin-right: 0; float: none;}
+
+.reg-operate { padding-left: 125px;}
+.reg-agree { color: #FF7E00;}
+.reg-agree input { display: inline-block; vertical-align: middle; margin-right: 5px;}
+.reg-agree a { color: #23b7b7;}
+.reg-btn { padding: 18px 0;}
+.reg-btn a { width: 307px; height: 38px; line-height: 38px; text-align: center; font-size: 18px; display: inline-block; text-decoration: none;}
+.reg-btn a.reg-disable { background: #FF7E00; color: #fffefe; border-radius: 10px;}
+.reg-btn a.reg-allow { background: #efefef; color: #999999; cursor: default; border-radius: 10px;}
+.reg-btn a.reg-loading { background: url(images/loading_login.gif) no-repeat 117px 4px;}
+.reg-login a { color: #FF7E00; text-decoration: none;}
+
+.reg-right { width: 332px; padding: 25px 10px; display: inline-block; vertical-align: top}
+.reg-right dl { padding-left: 20px; font-size: 18px;}
+.reg-right dl dt { padding-bottom: 12px;}
+.reg-right dl dd { background:url(images/reg-ddbg.png) no-repeat 2px 10px; padding-bottom: 12px; padding-left: 32px;}
+.reg-right dl dd span { color: #FF7E00;}
+.reg-right dl dd.reg-prompt { font-size: 16px; background: none; padding-left: 0;}
+.reg-banenr { padding-top: 70px;}
+
+.agreement-wd { display: none;}
+.agreement-wdbg { position: fixed; z-index:100; top: 0px; left: 0px; height:100%; width:100%; background-color:#000; filter:alpha(opacity=45); -moz-opacity: 0.45; opacity: 0.45;}
+.agreement-popup { position: absolute; z-index: 102; top: 50%; left: 50%; margin-left: -330px; margin-top: -301px; background: #ffffff; width: 620px; height: 575px; border: 5px solid #23b7b7; padding: 2px 15px 15px 15px; overflow: auto; text-align: left; line-height: 1.4em;}
+.popup-close { width: 17px; height: 17px; position: absolute; background: url(Images/popup_close_btn.png) no-repeat; cursor: pointer; right: 10px; top: 10px; z-index: 99999;}
+.agreement-box{ padding:10px; position:relative;  height:550px;}
+.agreement-box-title{ font-size:16px; color:#333; font-weight:bolder; height:30px; line-height:30px;}
+.agreement-txt{ height:440px; border:1px solid #ccc; padding:10px; font-size:12px; color:#333;overflow:auto;}
+.agreement-txt h3 { padding-bottom: 5px;}
+.agreement-txt p { padding-bottom: 8px; line-height: 20px;}
+.agreement-txt p.agreement-attent { padding: 7px 0; font-weight: bold;}
+.agreement-btn{ text-align:center; margin-top:20px;}
+.agreement-btn a{ width:266px; height:37px; line-height:35px; text-align:center; font-size:20px; color:#23b7b7; display:inline-block; background:url(Images/reg_btn_step1.png) no-repeat 0 -152px; text-decoration:none;}
+.agreement-btn a:hover{ background:url(Images/reg_btn_step1.png) no-repeat 0 -190px; color:#fff;}

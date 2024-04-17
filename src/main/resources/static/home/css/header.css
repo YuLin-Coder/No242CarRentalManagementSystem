@@ -1,0 +1,69 @@
+﻿/* reset */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {margin: 0;padding: 0;}
+fieldset, img { border: 0;}
+h1, h2, h3, h4, h5, h6 { font-weight: normal;}
+ol, ul { list-style: none;}
+table { border-collapse: collapse;border-spacing: 0;}
+caption, th {text-align: left;}
+button, input, select, textarea { font-size: 100%; }
+.clear_float:after { display: block; visibility: hidden; height: 0; clear: both; content: "";}
+.clear_float { zoom: 1;}
+a{ text-decoration:none;}
+body { font-size: 12px; color: #666;}
+.fl { float: left;}
+.fr { float: right;}
+
+.wrap { min-width: 1300px;}
+.w1200 { width: 1200px; margin: 0 auto;}
+.iconmore { background:url(../cssimg/iconmore.png) no-repeat;}
+
+/* header */
+.head-top { background: #f2f2f2; height: 28px; padding-top: 4px; position: relative; z-index: 99;} 
+.top-link a { color: #666;; height: 20px; line-height: 20px; padding: 1px 3px 2px; display: inline-block; border: 1px solid #f2f2f2;}
+.top-link a.top-link-bold {color: #0076bf;}
+.top-link a:hover { text-decoration: underline;}
+.top-link a.linklogin,.top-link a.linkreg { color: #0076bf;}
+.top-link a.site-map-drop { width: 62px;}
+.top-link a.site-map-drop:hover { border: 1px solid #ccc;}
+.top-link a.linkon { border: 1px solid #ccc;}
+.top-link a.linkon .sit-map-up{ background-position: -686px -9px;}
+.top-link a .sit-map-up { background-position: -686px 0; width: 9px; height: 5px; display: inline-block; vertical-align: middle; margin-left: 4px;}
+.top-link a:hover .sit-map-up { background-position: -686px -9px;}
+
+.top-link span { height: 20px; line-height: 20px; padding: 3px 0; *vertical-align: 3px;}
+.top-link span.contact-phone { width: 94px; padding: 1px 3px 2px; color: #0076bf; display: inline-block; border: 1px solid #f2f2f2; cursor: pointer; *vertical-align: 0px;}
+.top-link span.contact-phone:hover { border: 1px solid #ccc;}
+.top-link span .contact-up { background-position: -686px 0; width: 9px; height: 5px; display: inline-block; vertical-align: middle; margin-left: 4px;}
+.top-link span:hover .contact-up { background-position: -686px -9px;}
+.top-link span.linkon { border: 1px solid #ccc;}
+.contact-info { width: 240px; height: 30px; line-height: 30px; padding-left: 10px; border: 1px solid #ccc; background: #FFF; position: absolute; top: 24px; *top: 27px; left: -150px; z-index: 99; display: none;}
+.contact-info em { font-style: normal; color: #0088cc; letter-spacing: 1px;}
+.cover-contact { position: absolute; height: 1px; width: 100px; background: #fff; margin-left: 140px; margin-top: -1px; *margin-top: -8px;}
+
+.top-link span.wx-title { width: 36px; padding: 1px 6px 4px; border: 1px solid #f2f2f2; cursor: pointer;}
+.top-link span.wx-title:hover { color: #0076bf; border: 1px solid #0076bf;}
+.wx-info { width: 100px; text-align: center; padding: 12px 8px; background: #fff; border: 1px solid #0076bf; position: absolute; top: 22px; *top: 27px; left: -80px; z-index: 99; display: none;}
+.wx-info img { width: 100px; height: 100px;}
+.cover-wx { position: absolute; height: 1px; width: 36px; background: #fff; margin-left: 72px; margin-top: -13px;}
+
+.site-map,.site-contact,.site-wx { position: relative; display: inline-block; *display:inline; font-family:"Microsoft YaHei";}
+.cover-map{ position: absolute; height: 1px; width: 68px; background: #fff; margin-left: 177px; margin-top: -6px;}
+.site-mapinfo { width: 235px; background: #fff; border: 1px solid #ccc; padding: 5px 10px; position: absolute; top: 24px; *top: 27px; left: -187px; z-index: 99; display: none;}
+.site-map-title { border-bottom: 1px dotted #cccccc; color: #1b639a; font-weight: bolder; line-height: 25px; text-align: left;}
+.site-map-link { line-height: 25px; text-align: left;}
+.site-map-link a { color: #666; display: inline-block; padding: 0 4px 0 0; border: none;}
+.site-map-link a:hover { text-decoration: underline;}
+.site-map-more a { color: #1b639a; font-weight: bolder; border: none;}
+.site-map-more a:hover { text-decoration: underline;}
+
+.head-bottom { background: #fff; border-bottom: 2px solid #0076bf; }
+.logo { background:url(../cssimg/logo.png) no-repeat;  height: 62px; display: block; margin-top: 15px;}
+.nav-wrap { margin-left: -26px;}
+.nav-wrap li { float: left; width: 134px; height: 56px; text-align: center; position: relative;}
+.nav-wrap li a { font-size: 18px; color: #666; margin: 20px 0 12px; display: inline-block;}
+.nav-wrap li a:hover { color: #0076bf;}
+.nav-wrap li span { background:url(../cssimg/iconmore.png) no-repeat -670px 0; width: 12px; height: 6px; position: absolute; bottom: 0; left: 61px; display: none;}
+.nav-wrap li em { background:url(../cssimg/iconmore.png) no-repeat -732px 0; width: 24px; height: 16px; position: absolute; top: 5px; right: 16px;}
+.nav-wrap li.menu-index-on a { color: #0076bf;}
+.nav-wrap li.menu-index-on span { display: block;}
+.nav-wrap li.menu-index a {font-weight: bold}
